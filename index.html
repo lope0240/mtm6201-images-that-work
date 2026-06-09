@@ -18,20 +18,17 @@
      TASK 1 — Logo: optimize the SVG
    ============================================================ -->
 <header class="site-header">
-  <div class="header-inner">
-    <a href="#" class="logo-link">
-      <img src="images/ridgeline-logo-opt.svg" 
-           alt="Ridgeline wordmark" 
-           class="logo">
-    </a>
-    <nav class="site-nav">
-      <a href="#">Gear</a>
-      <a href="#">Trail Notes</a>
-      <a href="#">About</a>
-      <a href="#" class="nav-cta">Shop Now</a>
-    </nav>
-  </div>
-</header>
+        <div class="header-inner">
+            <a href="#" class="logo-link">
+                <img src="images/ridgeline-logo-opt.svg" alt="Ridgeline wordmark" class="logo">
+            </a>
+            <nav class="site-nav">
+                <a href="#">Shop</a>
+                <a href="#">Journal</a>
+                <a href="#" class="nav-cta">Get Started</a>
+            </nav>
+        </div>
+    </header>
 
 
  <!-- ============================================================
@@ -39,153 +36,173 @@
     TASK 3 — Hero: replace background image + resolution switching
   ============================================================ -->
 <section class="hero">
-  <!-- Hero image with resolution switching -->
-  <img 
-    src="images/hero.png" 
-    srcset="images/hero-400.webp 400w,
-            images/hero-800.webp 800w,
-            images/hero-1200.webp 1200w,
-            images/hero-1920.webp 1920w" 
-    sizes="100vw"
-    alt="Mountain ridgeline at sunrise with hiking trail">
-  
-  <div class="hero__content">
-    <p class="hero__label">Spring / Summer 2026</p>
-    <h1 class="hero__title">Built for<br>the Trail</h1>
-    <p class="hero__sub">Technical gear for people who go further.</p>
-    <a href="#" class="btn btn--primary">Shop the Collection</a>
-  </div>
-</section>
+        <img src="images/hero.png" 
+             alt="Mountain ridgeline at sunrise with hiking trail">
+        <div class="hero__content">
+            <p class="hero__label">Est. 2018</p>
+            <h1 class="hero__title">GEAR FOR THE WILD</h1>
+            <p class="hero__sub">Premium outdoor equipment built for those who seek the ridge.</p>
+            <a href="#" class="btn btn--primary">Shop Collection</a>
+        </div>
+    </section>
 
 
  <!-- ============================================================
     TASK 4 — Product images: optimize with Squoosh
   ============================================================ -->
 <section class="featured-gear">
-  <div class="section-header">
-    <h2>Featured Gear</h2>
-    <p>Tested on the Gatineau Hills. Ready for anywhere.</p>
-  </div>
-  <div class="gear-grid">
-
-    <article class="gear-card">
-      <div class="gear-card__image">
-        <img src="images/product-jacket.webp" 
-             alt="Ridgeline Apex Shell Jacket in olive green">
-      </div>
-      <div class="gear-card__body">
-        <span class="gear-card__tag">Outerwear</span>
-        <h3 class="gear-card__title">Apex Shell Jacket</h3>
-        <p class="gear-card__desc">Three-layer construction. Fully seam-sealed. Packs into its own chest pocket. The jacket you grab without thinking.</p>
-        <div class="gear-card__footer">
-          <span class="gear-card__price">$349</span>
-          <a href="#" class="btn btn--small">View Details</a>
+        <div class="section-header">
+            <h2>Featured Gear</h2>
+            <p>Timeless pieces for your next adventure</p>
         </div>
-      </div>
-    </article>
-
-    <article class="gear-card">
-      <div class="gear-card__image">
-        <img src="images/product-boots.webp" 
-             alt="Ridgeline Summit Mid hiking boots in brown leather">
-      </div>
-      <div class="gear-card__body">
-        <span class="gear-card__tag">Footwear</span>
-        <h3 class="gear-card__title">Summit Mid Boot</h3>
-        <p class="gear-card__desc">Full-grain leather upper. Vibram outsole. Waterproof membrane. Broken in after 10km, reliable for the next 1,000.</p>
-        <div class="gear-card__footer">
-          <span class="gear-card__price">$289</span>
-          <a href="#" class="btn btn--small">View Details</a>
+        <div class="gear-grid">
+            <div class="gear-card">
+                <div class="gear-card__image">
+                    <img src="images/product-jacket.png" alt="Ridgeline technical jacket">
+                </div>
+                <div class="gear-card__body">
+                    <span class="gear-card__tag">Jacket</span>
+                    <h3 class="gear-card__title">Summit Shell</h3>
+                    <p class="gear-card__desc">Waterproof, breathable, and built to last through seasons of adventure.</p>
+                    <div class="gear-card__footer">
+                        <span class="gear-card__price">$189</span>
+                        <a href="#" class="text-link">Learn more →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="gear-card">
+                <div class="gear-card__image">
+                    <img src="images/product-boots.png" alt="Ridgeline hiking boots">
+                </div>
+                <div class="gear-card__body">
+                    <span class="gear-card__tag">Footwear</span>
+                    <h3 class="gear-card__title">Trailblazer Boots</h3>
+                    <p class="gear-card__desc">Grip that holds on the slickest rocks and comfort for all-day hikes.</p>
+                    <div class="gear-card__footer">
+                        <span class="gear-card__price">$159</span>
+                        <a href="#" class="text-link">Learn more →</a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </article>
-
-  </div>
-</section>
+    </section>
 
 
  <!-- ============================================================
     TASK 5 — Blog images: optimize with Squoosh
   ============================================================ -->
 <section class="trail-notes">
-  <div class="trail-notes__inner">
-    <div class="section-header">
-      <h2>Trail Notes</h2>
-      <p>Dispatches from the field.</p>
-    </div>
-    <div class="notes-grid">
-
-      <article class="note-card">
-        <div class="note-card__image">
-          <img src="images/note-rideau.webp" 
-               alt="A hiker crossing a wooden bridge on the Rideau Trail">
+        <div class="trail-notes__inner">
+            <div class="section-header">
+                <h2>Trail Notes</h2>
+                <p>Stories from the ridge</p>
+            </div>
+            <div class="notes-grid">
+                <div class="note-card">
+                    <div class="note-card__image">
+                        <img src="images/note-rideau.png" alt="Hiker on mountain trail">
+                    </div>
+                    <div class="note-card__body">
+                        <div class="note-card__meta">
+                            <span class="note-card__tag">Adventure</span>
+                            <span class="note-card__date">May 12, 2026</span>
+                        </div>
+                        <h3>The Long Way Up</h3>
+                        <p>A multi-day trek through untouched wilderness.</p>
+                    </div>
+                </div>
+                <div class="note-card">
+                    <div class="note-card__image">
+                        <img src="images/note-gatineau.png" alt="Camping under stars">
+                    </div>
+                    <div class="note-card__body">
+                        <div class="note-card__meta">
+                            <span class="note-card__tag">Camping</span>
+                            <span class="note-card__date">April 28, 2026</span>
+                        </div>
+                        <h3>Night Under the Canopy</h3>
+                        <p>What we learned from sleeping in the wild.</p>
+                    </div>
+                </div>
+                <div class="note-card">
+                    <div class="note-card__image">
+                        <img src="images/note-supply.png" alt="Mountain lake reflection">
+                    </div>
+                    <div class="note-card__body">
+                        <div class="note-card__meta">
+                            <span class="note-card__tag">Exploration</span>
+                            <span class="note-card__date">March 15, 2026</span>
+                        </div>
+                        <h3>Hidden Valleys</h3>
+                        <p>Discovering places few have seen.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="note-card__body">
-          <div class="note-card__meta">
-            <span class="note-card__tag">Gear Review</span>
-            <span class="note-card__date">March 2026</span>
-          </div>
-          <h3>Five Days on the Rideau Trail: What Held Up</h3>
-          <p>We took the full Apex kit north of Kingston for a five-day loop. Here's what surprised us, what didn't, and what we'd do differently.</p>
-          <a href="#" class="text-link">Read more →</a>
-        </div>
-      </article>
-
-      <article class="note-card">
-        <div class="note-card__image">
-          <img src="images/note-gatineau.webp" 
-               alt="Snow-covered trees on a Gatineau Hills winter trail">
-        </div>
-        <div class="note-card__body">
-          <div class="note-card__meta">
-            <span class="note-card__tag">How To</span>
-            <span class="note-card__date">February 2026</span>
-          </div>
-          <h3>How to Layer for a Gatineau Winter Hike</h3>
-          <p>Minus 20 and clear skies. The Gatineau Hills in February are brutal and beautiful. Your layering system makes or breaks the day.</p>
-          <a href="#" class="text-link">Read more →</a>
-        </div>
-      </article>
-
-      <article class="note-card">
-        <div class="note-card__image">
-          <img src="images/note-supply.webp" 
-               alt="A textile factory floor with workers at sewing machines">
-        </div>
-        <div class="note-card__body">
-          <div class="note-card__meta">
-            <span class="note-card__tag">Sustainability</span>
-            <span class="note-card__date">January 2026</span>
-          </div>
-          <h3>Why We Rebuilt Our Supply Chain from Scratch</h3>
-          <p>Three years ago we started over. We'll tell you exactly why — and what it cost us to do the right thing.</p>
-          <a href="#" class="text-link">Read more →</a>
-        </div>
-      </article>
-
-    </div>
-  </div>
-</section>
-
+    </section>
 <!-- ============================================================
     TASK 6 — Banner: optimize and prepare two crops
     TASK 7 — Banner: art direction with <picture>
   ============================================================ -->
-<section class="landscape-banner">
-  <!-- Banner with art direction (mobile portrait vs desktop wide) -->
-  <picture>
-    <source media="(max-width: 768px)" srcset="images/banner-portrait.webp">
-    <source media="(min-width: 769px)" srcset="images/banner-wide.webp">
-    <img src="images/banner-wide.webp" 
-         alt="A misty forest trail at dawn">
-  </picture>
+<section class="trail-notes">
+        <div class="trail-notes__inner">
+            <div class="section-header">
+                <h2>Trail Notes</h2>
+                <p>Stories from the ridge</p>
+            </div>
+            <div class="notes-grid">
+                <div class="note-card">
+                    <div class="note-card__image">
+                        <img src="images/note-rideau.png" alt="Hiker on mountain trail">
+                    </div>
+                    <div class="note-card__body">
+                        <div class="note-card__meta">
+                            <span class="note-card__tag">Adventure</span>
+                            <span class="note-card__date">May 12, 2026</span>
+                        </div>
+                        <h3>The Long Way Up</h3>
+                        <p>A multi-day trek through untouched wilderness.</p>
+                    </div>
+                </div>
+                <div class="note-card">
+                    <div class="note-card__image">
+                        <img src="images/note-gatineau.png" alt="Camping under stars">
+                    </div>
+                    <div class="note-card__body">
+                        <div class="note-card__meta">
+                            <span class="note-card__tag">Camping</span>
+                            <span class="note-card__date">April 28, 2026</span>
+                        </div>
+                        <h3>Night Under the Canopy</h3>
+                        <p>What we learned from sleeping in the wild.</p>
+                    </div>
+                </div>
+                <div class="note-card">
+                    <div class="note-card__image">
+                        <img src="images/note-supply.png" alt="Mountain lake reflection">
+                    </div>
+                    <div class="note-card__body">
+                        <div class="note-card__meta">
+                            <span class="note-card__tag">Exploration</span>
+                            <span class="note-card__date">March 15, 2026</span>
+                        </div>
+                        <h3>Hidden Valleys</h3>
+                        <p>Discovering places few have seen.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <div class="landscape-banner__content">
-    <h2>Every trail<br>has a story.</h2>
-    <p>Ridgeline gear is built for the ones worth telling.</p>
-    <a href="#" class="btn btn--outline">Find Your Trail</a>
-  </div>
-</section>
+    <!-- BANNER -->
+    <section class="landscape-banner">
+        <img src="images/landscape-banner.png" alt="A misty forest trail at dawn">
+        <div class="landscape-banner__content">
+            <h2>Find Your Path</h2>
+            <p>Equipment engineered for the moments that matter most.</p>
+            <a href="#" class="btn btn--outline">Explore the Collection</a>
+        </div>
+    </section>
 
 
   <!-- ============================================================
